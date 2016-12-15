@@ -1,4 +1,4 @@
-FROM wasnot/chainer-appengine
+FROM wasnot/chainer-appengine:0.1.1
 MAINTAINER Wasnot <wasnot@example.com>
 RUN \
     apt-get update && apt-get upgrade -y && \
